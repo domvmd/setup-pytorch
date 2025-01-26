@@ -1,0 +1,21 @@
+name: medical_pytorch
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch=2.5.1
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.4
+  - jupyter
+  - ipykernel
+  - simpleitk  # For DICOM/NIfTI loading
+  - pydicom    # For metadata extraction
+  - numpy
+  - matplotlib
+  - pip
+  - pip:
+    - monai    # MONAI requires pip
