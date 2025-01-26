@@ -1,0 +1,10 @@
+Medical-Imaging-with-PyTorch-Guide/
+├── .github/
+│   └── workflows/             # (Optional) CI/CD for environment checks
+├── examples/
+│   └── basic_dicom_loader.ipynb  # Simple medical imaging demo
+├── docs/
+│   ├── troubleshooting.md     # Common GPU/dependency issues
+│   └── medical_resources.md   # Curated PyTorch + medical imaging resources
+├── README.md                  # Main guide (see content below)
+└── environment.yml            # Conda environment file
