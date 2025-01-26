@@ -8,3 +8,4 @@ Medical-Imaging-with-PyTorch-Guide/
 │   └── medical_resources.md   # Curated PyTorch + medical imaging resources
 ├── README.md                  # Main guide (see content below)
 └── environment.yml            # Conda environment file
+├── requirements.txt           # Pip fallback
